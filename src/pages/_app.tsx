@@ -7,10 +7,6 @@ import { Header } from "../components/Header";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <Head>
-        <title>Início | ig.news</title>
-      </Head>
-
       <Header />
       <Component {...pageProps} />
     </>
